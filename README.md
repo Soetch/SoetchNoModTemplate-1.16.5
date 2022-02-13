@@ -1,4 +1,4 @@
-# SoetchNoModTemplate
+# SoetchNoModTemplate 1.16.5
 A Template for Minecraft Modding by Soetch. Please modify the mods.toml to make this template yours.
 
 ### Why did I create this template ?
