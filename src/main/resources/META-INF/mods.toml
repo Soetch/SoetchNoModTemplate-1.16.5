@@ -29,12 +29,15 @@ displayURL="https://github.com/Soetch/SoetchNoModTemplate-1.16.5" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks to the YouTube channel 'Tutorial by Kaupenjoue' for his big help with Forge." #optional
+credits="Your credits." #optional
 # A text field displayed in the mod UI
 authors="Soetch" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
 A Template for Minecraft Modding by Soetch. Please modify the mods.toml to make this template yours.
+
+Credits (you can delete this sentence, but please keep these Credits or put it in your README.md!) : 
+Mod created with the SNMT Template (https://github.com/Soetch/SoetchNoModTemplate-1.16.5) by Soetch.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.soetchnomodtemplate]] #optional
