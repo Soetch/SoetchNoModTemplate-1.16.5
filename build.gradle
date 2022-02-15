@@ -13,8 +13,8 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '1.16.5-1.0'
-group = 'net.soetch.soetchnomod' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'soetchnomod'
+group = 'net.soetch.soetchnomodtemplate' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'soetchnomodtemplate'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8) // Mojang ships Java 8 to end users, so your mod should target Java 8.
 
@@ -55,7 +55,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                soetchnomod {
+                soetchnomodtemplate {
                     source sourceSets.main
                 }
             }
@@ -102,7 +102,7 @@ minecraft {
             args '--mod', 'soetchnomod', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                soetchnomod {
+                soetchnomodtemplate {
                     source sourceSets.main
                 }
             }
@@ -143,8 +143,8 @@ dependencies {
 jar {
     manifest {
         attributes([
-            "Specification-Title": "soetchnomod",
-            "Specification-Vendor": "soetchnomodsareus",
+            "Specification-Title": "soetchnomodtemplate",
+            "Specification-Vendor": "soetchnomodtemplatesareus",
             "Specification-Version": "1", // We are version 1 of ourselves
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
